@@ -1,0 +1,31 @@
+.group {
+  display: flex;
+}
+
+select {
+  width: 100%;
+}
+
+.group input {
+  flex: 1 0 auto;
+}
+
+.group button,
+.group a {
+  flex: 0 1 auto;
+}
+
+
+.pure-menu {
+  margin-top: 10px;
+}
+
+.pure-menu-selected,
+.panel {
+  background-color: #eee;
+}
+
+.panel {
+  padding: 10px;
+  margin-bottom: 10px;
+}
