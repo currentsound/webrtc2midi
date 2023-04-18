@@ -1,6 +1,6 @@
 <template>
   <div class="app pure-form">
-    <h2>WebRTC to MIDI</h2>
+    <h2><a href="https://github.com/markmarijnissen/webrtc2midi" target="_blank">WebRTC to MIDI</a></h2>
     <div v-if="!peerInitialized">
       <div class="config panel">
         <strong>My Device ID</strong>
